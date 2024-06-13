@@ -1,0 +1,60 @@
+body {
+  background-color: #f5f8fa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f2601d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.list-group-item p {
+  margin: 0;
+}
+
+.list-group-item small {
+  color: #657786;
+}
+
+button {
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+.tweet-form textarea {
+  resize: none;
+  border-radius: 5px;
+}
+
+.tweet-form button {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.tweet-form button:hover {
+  background-color: #1a91da;
+  border-color: #1a91da;
+}
+
+.auth-form input,
+.auth-form button {
+  border-radius: 5px;
+}
